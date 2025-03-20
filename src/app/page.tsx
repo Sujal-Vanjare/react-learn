@@ -5,6 +5,7 @@ const pages = [
   { id: 1, name: "nesting components", href: "/nesting-components" },
   { id: 2, name: "displaying data", href: "/displaying-data" },
   { id: 3, name: "conditional rendering", href: "/conditional-rendering" },
+  { id: 4, name: "responding to events", href: "/responding-to-events" },
 ];
 
 export default function Home() {
