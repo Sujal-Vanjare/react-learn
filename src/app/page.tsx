@@ -2,10 +2,14 @@ import Image from "next/image";
 import Link from "next/link";
 
 const pages = [
-  { id: 1, name: "nesting components", href: "/nesting-components" },
-  { id: 2, name: "displaying data", href: "/displaying-data" },
-  { id: 3, name: "conditional rendering", href: "/conditional-rendering" },
-  { id: 4, name: "responding to events", href: "/responding-to-events" },
+  { id: 1, href: "/nesting-components" },
+  { id: 2, href: "/displaying-data" },
+  { id: 3, href: "/conditional-rendering" },
+  { id: 4, href: "/responding-to-events" },
+  { id: 5, href: "/updating-the-screen" },
+  { id: 6, href: "/using-hooks" },
+  { id: 7, href: "/sharing-data-between-components" },
+  
 ];
 
 export default function Home() {
@@ -24,7 +28,7 @@ export default function Home() {
           {pages.map((page) => (
             <li key={page.id}>
               <Link href={page.href} className="tracking-[-.01em]">
-                {page.name}
+                {page.href}
               </Link>
             </li>
           ))}
