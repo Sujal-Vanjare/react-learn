@@ -21,6 +21,8 @@ export default function ShoppingList() {
   return <ul>{listItems}</ul>;
 }
 
+// -------------- //
+
 function ShowContent() {
   let content;
   if (isLoggedIn) {
@@ -45,9 +47,19 @@ function RenderingList() {
     { title: "Garlic", id: 2 },
     { title: "Apple", id: 3 },
   ];
+
   const listItems = products.map((product) => (
+    // React uses your keys to know what happened if you later insert, delete, or reorder the items.
     <li key={product.id}>{product.title}</li>
   ));
+
+  // basic for loop the loop builds up the string str by adding one digit at a time from 0 to 8 , ans is "012345678"
+  let str = "";
+  for (let i = 0; i < 9; i++) {
+    str = str + i;
+  }
+
+  console.log(str);
 
   return <ul>{listItems}</ul>;
 }
