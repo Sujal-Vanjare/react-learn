@@ -5,5 +5,7 @@ export default function Page() {
     alert("You clicked me!");
   }
 
+  // Notice how onClick={handleClick} has no () parentheses at the end!
+  // only calls when event is happened
   return <button onClick={handleClick}>Click me</button>;
 }
