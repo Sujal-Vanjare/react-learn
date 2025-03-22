@@ -9,7 +9,8 @@ const pages = [
   { id: 5, href: "/updating-the-screen" },
   { id: 6, href: "/using-hooks" },
   { id: 7, href: "/sharing-data-between-components" },
-  
+  { id: 8, href: "/tic-tac-toe-game" },
+  { id: 9, href: "/tic-tac-toe-game/why-immutability-is-important" },
 ];
 
 export default function Home() {
