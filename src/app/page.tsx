@@ -11,6 +11,7 @@ const pages = [
   { id: 7, href: "/sharing-data-between-components" },
   { id: 8, href: "/tic-tac-toe-game" },
   { id: 9, href: "/tic-tac-toe-game/why-immutability-is-important" },
+  { id: 10, href: "/picking-key" },
 ];
 
 export default function Home() {
