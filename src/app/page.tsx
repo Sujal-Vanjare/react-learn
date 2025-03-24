@@ -12,6 +12,7 @@ const pages = [
   { id: 8, href: "/tic-tac-toe-game" },
   { id: 9, href: "/tic-tac-toe-game/why-immutability-is-important" },
   { id: 10, href: "/picking-key" },
+  { id: 11, href: "/break-the-ui-into-a-component-hierarchy" },
 ];
 
 export default function Home() {
