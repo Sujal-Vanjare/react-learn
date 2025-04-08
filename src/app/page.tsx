@@ -18,6 +18,8 @@ const pages = [
   },
   { id: 12, href: "/thinking-in-react/when-to-use-state" },
   { id: 13, href: "/thinking-in-react/identify-where-your-state-should-live" },
+  { id: 14, href: "/thinking-in-react/inverse-data-flow" },
+  { id: 15, href: "/thinking-in-react/product-table" },
 ];
 
 export default function Home() {
