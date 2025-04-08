@@ -2,17 +2,22 @@ import Image from "next/image";
 import Link from "next/link";
 
 const pages = [
-  { id: 1, href: "/nesting-components" },
-  { id: 2, href: "/displaying-data" },
-  { id: 3, href: "/conditional-rendering" },
-  { id: 4, href: "/responding-to-events" },
-  { id: 5, href: "/updating-the-screen" },
-  { id: 6, href: "/using-hooks" },
+  { id: 1, href: "/quick-start/nesting-components" },
+  { id: 2, href: "/quick-start/displaying-data" },
+  { id: 3, href: "/quick-start/conditional-rendering" },
+  { id: 4, href: "/quick-start/responding-to-events" },
+  { id: 5, href: "/quick-start/updating-the-screen" },
+  { id: 6, href: "/quick-start/using-hooks" },
   { id: 7, href: "/sharing-data-between-components" },
   { id: 8, href: "/tic-tac-toe-game" },
   { id: 9, href: "/tic-tac-toe-game/why-immutability-is-important" },
-  { id: 10, href: "/picking-key" },
-  { id: 11, href: "/break-the-ui-into-a-component-hierarchy" },
+  { id: 10, href: "/tic-tac-toe-game/picking-key" },
+  {
+    id: 11,
+    href: "/thinking-in-react/break-the-ui-into-a-component-hierarchy",
+  },
+  { id: 12, href: "/thinking-in-react/when-to-use-state" },
+  { id: 13, href: "/thinking-in-react/identify-where-your-state-should-live" },
 ];
 
 export default function Home() {
